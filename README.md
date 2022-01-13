@@ -5,7 +5,7 @@ Matrícula: 2022101225
 
 Links úteis:
 
-Cadastro Pportal - http://portal.ugb.edu.br/User/Register?Length=4
+Cadastro portal - http://portal.ugb.edu.br/User/Register?Length=4
 
 Portal - http://portal.ugb.edu.br/
 
