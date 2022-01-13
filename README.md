@@ -3,6 +3,8 @@ Repositório criado para documentar todo conteúdo referente ao curso sistemas d
 
 Links úteis:
 
-Cadastro Portal - http://portal.ugb.edu.br/User/Register?Length=4
+Cadastro Pportal - http://portal.ugb.edu.br/User/Register?Length=4
 
 Portal - http://portal.ugb.edu.br/
+
+Carteirinha digital (Android) - https://play.google.com/store/apps/details?id=br.edu.ugb
