@@ -1,21 +1,21 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 04/03/2022
 var
-// Seção de Declarações das variaveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variaveis
 altura: inteiro
 base: inteiro
 area: inteiro
 inicio
-// Seção de Comandos, procedimentos, funções,
-   escreva("Informe o valor da altura: ")
+// SeÃ§Ã£o de Comandos, procedimentos, funÃ§Ãµes,
+   escreva("Informe o valor da altura do retangulo: ")
    leia(altura)
-   escreva("Informe o valor da base: ")
+   escreva("Informe o valor da base do retangulo: ")
    leia(base)
    
    area <- altura*base
-   escreva(area)
+   escreva("a Ã¡rea do retÃ¢ngulo Ã©:",area )
 
 
 fimalgoritmo
