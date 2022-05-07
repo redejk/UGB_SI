@@ -47,7 +47,8 @@ elif (media >=3.1) and (media <=6.9):
     print(f"Sua media foi: {media}")
     print("Voce precisa fazer uma prova final!")
     final = float(input("Digite a nota da prova final: "))
-    mediafinal = round(((media + final) / 2),1)
+    mediafinal = ((media + final) / 2)
+    mediafinal = truncate(mediafinal, 1)
     if mediafinal >= 5.0:
         print("Voce foi aprovado com final!")
         print(f"Sua media final foi: {mediafinal}")
