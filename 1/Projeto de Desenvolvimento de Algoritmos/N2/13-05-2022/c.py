@@ -1,6 +1,6 @@
-n = 1
+cont = 1
 soma = 0
-while n<=100:
-    soma = soma + n
-    n = n +1
+while cont<=100:
+    soma = soma + cont
+    cont = cont +1
 print(soma)
