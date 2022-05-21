@@ -1,7 +1,7 @@
 cont = 1
 soma = 0
 media = 0
-while (cont >= 1) and (cont <= 10):
+while (cont <= 10):
     n = float(input("Digite um valor: "))
     soma = soma + n
     cont = cont + 1

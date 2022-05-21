@@ -1,6 +1,6 @@
 cont = 50
 soma = 0
-while (cont >= 50) and (cont <= 70):
+while (cont <= 70):
     if (cont % 2) == 0:
         soma = (soma + cont)
     cont = cont + 1

@@ -1,7 +1,7 @@
 expoente = 0
 base = 3
 resultado = 0
-while (expoente >= 0) and (expoente <= 15):
+while (expoente <= 15):
     if (expoente == 0):
         resultado = 1
         print(resultado)

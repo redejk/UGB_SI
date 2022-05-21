@@ -1,6 +1,6 @@
 cont = 1
 fatorial = 1
-while (cont >= 1) and (cont <= 10):
+while (cont <= 10):
     if (cont % 2) != 0:
         n = cont
         while (n > 1):
