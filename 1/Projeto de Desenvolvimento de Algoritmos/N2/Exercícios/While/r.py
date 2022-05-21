@@ -1,7 +1,6 @@
-numero = int(input("Digite um número: "))
+numero = int(input("Digite um valor: "))
 if (numero <= 0):
     print("Valor digitado é negativo, programa finalizado!")
-    maior = menor = numero
 else:
     maior = menor = numero
     while (numero >=0):
