@@ -19,7 +19,12 @@ Desvantagens:
 APlicações:
 
 Desenvolvimento de exemplo utilizando o item apresentado:
-
+#Cadastrar o nome e o número de telefone de uma pessoa na agenda
+agenda = {}
+agenda['Nome'] = input("Digite o nome da pessoa: ")
+agenda['Telefone'] = int(input("Digite o telefone da pessoa: "))
+for k, v in agenda.items():
+    print(f"{k} - {v}")
 
 Referências:
 https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python
