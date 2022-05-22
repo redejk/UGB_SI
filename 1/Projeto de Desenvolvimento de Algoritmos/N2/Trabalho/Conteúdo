@@ -1,0 +1,26 @@
+Trabalho de Algoritmos
+
+Características:
+Seus elementos contém uma chave e valor, isto é:
+Uma chave que vai servir para indexar (posicionar) determinado elemento no dicionário.
+Um valor que pode conter diversos tipos: listas, outros dicionários, inteiros, strings e etc.
+
+Sintaxe:
+Sua sintaxe básica é {'chave': 'valor'} . Utiliza-se { } para delimitar o dicionário e a chave é separada por dois pontos : 
+
+Vantagens:
+- Ao procurar um item em uma lista enorme, a busca irá passar por todos os itens dessa lista, já no dicionário basta procurar pela chave, o retorno será muito mais rápido.
+- Código legível, ao trabalhar com as chaves junto aos valores no dicionário é adicionado uma camada de documentação ao código, ficando mais fácil depurar.
+
+Desvantagens:
+
+
+APlicações:
+
+Desenvolvimento de exemplo utilizando o item apresentado:
+
+
+Referências:
+https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python
+https://www.digitalvidya.com/blog/python-dictionary/
+https://penseallen.github.io/PensePython2e/11-dicionarios.html
