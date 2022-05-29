@@ -1,7 +1,6 @@
 def fahrenheit(t):
     res = ((t * 9)/5) + 32
-    return res 
+    print(f"A temperatura digitada: {t} equivale a {res} ºF")
 
 temp = float(input("Digite a temperatura em graus celsius: "))
-f = fahrenheit(temp)
-print(f"A temperatura digitada: {temp}º equivale a {f}ºF")
+fahrenheit(temp)
