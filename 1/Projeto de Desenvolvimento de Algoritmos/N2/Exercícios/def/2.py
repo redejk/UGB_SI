@@ -1,9 +1,9 @@
-def ObterFatorial():
+def ObterFatorial(n):
     fatorial = 1
-    n = int(input("Digite um número: "))
     while n > 1:
         fatorial = fatorial * n
         n = n-1
-    print(fatorial)
+    return fatorial
 
-ObterFatorial()
+numero = int(input("Digite um número: "))
+print(ObterFatorial(numero))
