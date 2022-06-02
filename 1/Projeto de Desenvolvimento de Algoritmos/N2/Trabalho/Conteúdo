@@ -1,30 +1,54 @@
-Trabalho de Algoritmos
-Pegamos o grupo F (F TOTAL), que é Dicionários
+Trabalho de Algoritmos - Dicionário Python
 
 Características:
 Seus elementos contém uma chave e valor, isto é:
 Uma chave que vai servir para indexar (posicionar) determinado elemento no dicionário.
 Um valor que pode conter diversos tipos: listas, outros dicionários, inteiros, strings e etc.
-
+Usamos chaves ({}) para construir nossos dicionários. Neste caso, falamos para o Python, que a chave ({}) possuí o valor (:).
+É possível inserir um item em um dicionário com chave e valor simplesmente fazendo a operação direta: chave = {valor:00}
+O tipo da chave é imutável, ou seja, uma vez determinado que uma chave seja string, ela não poderá ser alterada.
+Os elementos de um dicionário são armazenados de forma não ordenada, pois os elementos de cada chave são exclusivos daquela chave.
+Porém, é possível duplicar o mesmo valor á chaves diferentes.
+Dicionários também são mutáveis. isso significa que o dicionário pode ser modificado pela referência a uma associação no
+lado esquerdo de um comando de atribuição. Podemos redefinir o valor de uma chave ou deletar uma chave valor, com o comando "del".
+É possível também deletar um único valor dentro cda chave, com o comando pop(), que irá receber a chave e o valor indicado e irá exclui-lo.
+Também é possível juntar dois dicionários com o comando update(), onde dois dicionários diferentes se unirão, subscrevendo o dicionário original.
+---------------------------------------------------------------------------------------
 Sintaxe:
-Sua sintaxe básica é {'chave': 'valor'} . Utiliza-se { } para delimitar o dicionário e a chave é separada por dois pontos : 
+Os dicionários são coleções de itens e seus elementos são armazenados de forma não ordenada.
+Seus elementos contém uma chave e valor, isto é:
+Uma chave que vai servir para indexar (posicionar) determinado elemento no dicionário.
+Um valor que contém… Bem, um valor :laughing: Este valor aceita diversos tipos: listas, outros dicionários, inteiros, strings e etc.
+Sua sintaxe básica é: {'chave': 'valor'}. Utiliza-se {} para delimitar o dicionário e a chave é separada do valor por dois pontos :.
+Exemplo de sua sintaxe:
+dicio = {'chave': 'valor'}
+print(type(dicio))
+Quando utilizar type() e a saída for essa abaixo, pode ter certeza que é um dicionário
 
+---------------------------------------------------------------------------------------
 Vantagens:
 - Ao procurar um item em uma lista enorme, a busca irá passar por todos os itens dessa lista, já no dicionário basta procurar pela chave, o retorno será muito mais rápido.
 - Código legível, ao trabalhar com as chaves junto aos valores no dicionário é adicionado uma camada de documentação ao código, ficando mais fácil depurar.
-
+---------------------------------------------------------------------------------------
 Desvantagens:
-
+---------------------------------------------------------------------------------------
 
 Aplicações:
-
+---------------------------------------------------------------------------------------
 Desenvolvimento de exemplo utilizando o item apresentado:
-#Cadastrar o nome e o número de telefone de uma pessoa na agenda
-agenda = {}
-agenda['Nome'] = input("Digite o nome da pessoa: ")
-agenda['Telefone'] = int(input("Digite o telefone da pessoa: "))
-for k, v in agenda.items():
-    print(f"{k} - {v}")
+#Perguntar o nome e o time de uma pessoa
+torcedor = {}
+torcedor['Nome'] = input("Digite o nome da pessoa: ")
+torcedor['Time'] = input("Digite o time da pessoa: ")
+print("\n\n\n")
+print("************  Somente as chaves do dicionário  ************")
+print(torcedor.keys())
+print("\n\n\n")
+print("************  Somente os valores do dicionário  ************")
+print(torcedor.values())
+print("\n\n\n")
+print("************  Todas as chaves e valores do dicionário  ************")
+print(torcedor.items())
 
 Referências:
 https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python
