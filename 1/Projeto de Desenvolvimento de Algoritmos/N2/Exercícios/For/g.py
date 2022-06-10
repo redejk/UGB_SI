@@ -8,6 +8,5 @@ for i in range(0, 16):
         resultado = base
         print(resultado)
     else:
-        (i >= 2) and (i <=16)
         resultado = resultado * base
         print(resultado)
