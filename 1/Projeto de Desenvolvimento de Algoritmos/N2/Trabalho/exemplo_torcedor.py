@@ -61,7 +61,7 @@ print(torcedor.items())
 
 import os
 import time
-time.sleep(10)
+time.sleep(5)
 os.system('pip install playsound')
 import playsound
 os.system('clear')
