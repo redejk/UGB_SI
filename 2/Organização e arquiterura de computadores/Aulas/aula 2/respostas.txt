@@ -1,0 +1,5 @@
+1 - Os computadores foram ficando cada vez menores e mais potentes.
+2 - Saber oque cada componente faz e sua importância para construção/montagem/utilização
+3 - Fonte: Responsável pela alimentação dos outros equipamentos / Drive de DVD/CD: Leitura de mídia externa / Placa mãe:  Realizar a comunicação de todos os componentes que são conectados a ela / Processador: Responsável por processador todos os dados e informações / Memóriam RAM: Memória temporária / Placa de vídeo: Processar as informações e entregar ao usuário de forma visual / Placa de som: Responsável pelos sons em geral / HD: Responsável por armazenar os dados de forma permanente / Leitor interno: Responsável por ler dispositivos como cartão de memória, pendrive
+4 - Dispositivos de entrada: Teclado, mouse, Coletor de digital / Dispositivos de saída: Monitor, caixa de som, impressora.. / Mistos: Monitor touch, pendrive..
+5 - Memória RAM. Funciona como um espaço de trabalho temporário, sendo do tipo volátil, onde todo seu conteúdo é perdido após não estar sendo energizada.
