@@ -27,4 +27,4 @@ if (A==B) and (A==C) and (B==C):
 elif (A==B) or (A==C) or (B==C):
     print('O triângulo é Isósceles')
 else:
-    print('O triângulo não é do tipo Equilátero nem Isósceles')
+    print('Escaleno')
