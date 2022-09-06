@@ -11,8 +11,11 @@ def categoria(i):
     elif i >= 14 and i <= 17:
         categoria = ('Juvenil B')
         return categoria
-    else:
+    elif i >= 18:
         categoria = ('Adulto')
+        return categoria
+    else:
+        categoria = ('Fora da categoria')
         return categoria
 
 resultado = categoria(10)
