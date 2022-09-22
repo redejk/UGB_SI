@@ -2,7 +2,6 @@ while True:
     A = int(input('Digite o primeiro valor: '))
     if A <= 0:
         print('O valor deve ser um inteiro positivo')
-        continue
     else:
         break
 
@@ -10,15 +9,13 @@ while True:
     B = int(input('Digite o segundo valor: '))
     if B <= 0:
         print('O valor deve ser um inteiro positivo')
-        continue
     else:
         break
 
 while True:
     C = int(input('Digite o terceiro valor: '))
-    if C <+ 0:
+    if C <= 0:
         print('O valor deve ser um inteiro positivo')
-        continue
     else:
         break
 
