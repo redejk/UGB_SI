@@ -1,8 +1,7 @@
-import math
-
 def area(r):
-    A =  (math.pi * (r**2))
+    PI = 3.14
+    A =  (PI * (r**2))
     return A
 
 resultado = area(5)
-print(resultado)
+print(f'{resultado:.2f}')
