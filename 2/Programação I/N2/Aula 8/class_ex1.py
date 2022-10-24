@@ -7,8 +7,4 @@ class Cachorro():
         self.porte = porte
 
 animal = Cachorro('branca', 15.0, 'liso', 'pitbull', 'grande')
-print(f'Meu cachorro tem a cor: {animal.cor}')
-print(f'Ele pesa: {animal.peso} kg')
-print(f'O tipo de pelo é: {animal.pelugem}')
-print(f'É da raça: {animal.raca}')
-print(f'O porte dele é: {animal.porte}')
+print(f'Meu cachorro tem a cor: {animal.cor}\nEle pesa: {animal.peso} kg\nO tipo de pelo é; {animal.pelugem}\nÉ da raça: {animal.raca}\nO porte dele é: {animal.porte}')
