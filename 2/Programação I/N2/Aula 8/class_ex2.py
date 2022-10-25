@@ -1,4 +1,4 @@
-class Gato():
+class Gato:
     def __init__(self, cor, peso, pelugem, raca, porte):
         self.cor = cor
         self.peso = peso
