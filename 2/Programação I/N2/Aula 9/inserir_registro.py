@@ -6,12 +6,12 @@ cursor = conexao.cursor()
 p_nome = "Ricardo"
 p_idade = 47
 
-sql = '''
+sql = f"""
 INSERT INTO clientes (nome, idade)
-VALUES (?, ?);
-'''
+VALUES ('{p_nome}', {p_idade});
+"""
 
-cursor.execute(sql, (p_nome, p_idade))
+cursor.execute(sql)
 conexao.commit()
 print('gravado com sucesso...')
 conexao.close()

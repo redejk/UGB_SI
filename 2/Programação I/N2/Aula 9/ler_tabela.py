@@ -3,9 +3,9 @@ import sqlite3
 conexao = sqlite3.connect('cliente2.db')
 cursor = conexao.cursor()
 
-sql = '''
+sql = """
 SELECT * FROM clientes;
-'''
+"""
 
 cursor.execute(sql)
 

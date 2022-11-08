@@ -3,18 +3,19 @@ import sqlite3
 conexao = sqlite3.connect('cliente2.db')
 cursor = conexao.cursor()
 
+nome_update = 'Larissa'
+idade_update = 18
+p_id = 3
 
-sql = """
+sql = f"""
 UPDATE clientes
-SET nome = ?, idade = ?
-WHERE id = ?;
+SET nome = '{nome_update}', idade = {idade_update}
+WHERE id = {p_id};
 """
 
-nome_update = 'João'
-idade_update = 20
-p_id = 1
 
-cursor.execute(sql, (nome_update, idade_update, p_id))
+
+cursor.execute(sql)
 conexao.commit()
 print("alterado com sucesso...")
 conexao.close()
