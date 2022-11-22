@@ -17,7 +17,7 @@ while True:
         nome = input('Digite um nome: ')
         while True:
             cpf = input('Digite o cpf: ')
-            if len(cpf) != 12:
+            if len(cpf) != 11:
                 print('O cpf deve ter 11 digitos e ser digitado sem ponto ou hífen')
             else:
                 break
