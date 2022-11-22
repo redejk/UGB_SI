@@ -1,3 +1,7 @@
+""" Nome: Carlos Eduardo Ferreira 2022101225
+Trabalho de Prog. 2º 
+22/11/2022
+"""
 from crud import MyCrud
 crud = MyCrud()
 
@@ -38,4 +42,5 @@ while True:
         id = int(input('Digite o ID que deseja deletar: '))
         crud.deletar(id)
     else:
+        crud.fecharDB()
         break

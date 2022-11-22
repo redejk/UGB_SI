@@ -1,3 +1,8 @@
+""" Nome: Carlos Eduardo Ferreira 2022101225
+Trabalho de Prog. 2º 
+22/11/2022
+"""
+
 class MyCrud:
     def __init__(self):
         import sqlite3
