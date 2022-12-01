@@ -5,7 +5,7 @@ class Pessoa:
         self.peso = peso
         self.altura = altura
 
-    def envelhecer(self, idade):
+    def envelhecer(self):
         self.idade = self.idade + 1
         if self.idade < 21:
             self.crescer(0.5)
@@ -20,5 +20,5 @@ class Pessoa:
         self.altura = self.altura + altura
     
 pessoa = Pessoa('Carlos', 29, 78, 177)
-pessoa.envelhecer(pessoa.idade)
+pessoa.envelhecer()
 print(f'Nome: {pessoa.nome}\nIdade: {pessoa.idade}\nPeso: {pessoa.peso}\nAltura: {pessoa.altura}')
