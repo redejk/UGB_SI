@@ -40,6 +40,7 @@ class MyCrud:
             values('{nome}', '{cpf}');
         """
         self.cursor.execute(sql)
+        self.conexao.commit()
         print('Salvo com sucesso...')
 
     def alterar(self, id, nome, cpf):
