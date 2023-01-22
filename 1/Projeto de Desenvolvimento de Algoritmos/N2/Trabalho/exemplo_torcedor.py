@@ -64,7 +64,7 @@ import time
 time.sleep(5)
 os.system('pip install playsound')
 import playsound
-os.system('clear')
+os.system('cls')
 print('''&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@%#########,        ./#############&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -100,4 +100,5 @@ print('''&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
                         @@@@@######################%@@@@(                                                
                                &@@@@@%#####&@@@@@(                              
                                    /@@@@@@@@@''')
-playsound.playsound('C:\\Users\\TI\\Documents\\GitHub\\UGB_SI\\1\Projeto de Desenvolvimento de Algoritmos\\N2\\Trabalho\\a.mp3')
+
+playsound.playsound('C:\\Github\\UGB_SI\\1\\Projeto de Desenvolvimento de Algoritmos\\N2\\Trabalho\\a.mp3')
