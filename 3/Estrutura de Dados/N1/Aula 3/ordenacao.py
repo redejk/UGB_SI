@@ -9,13 +9,11 @@ class Ordenacao:
 
     def selectionSort(self, x):
         n = len(x)
-        qtd = 0
         for i in range(0, n):
             for j in range(i+1, n):
                 if x[j] < x[i]:
-                    qtd +=1
                     x[i], x[j] = x[j], x[i]
-        return x, qtd
+        return x
 
     #def insertionSort(self, x):
 
@@ -23,5 +21,5 @@ ordenacao = Ordenacao()
 
 y = [6,4,7,3,5]
 
-print(ordenacao.bubbleSort(y))
-print(ordenacao.selectionSort(y))
+# print(ordenacao.bubbleSort(y))
+# print(ordenacao.selectionSort(y))
