@@ -1,12 +1,13 @@
 from django.http import HttpResponse
 def index(request):
-    html = """
+    nome = 'Carlos'
+    html = f"""
     <html>
     <head>
         <title>Aula 3</title>
     </head>
     <body>
-        <h1>Carlos</h1>
+        <h1>{nome}</h1>
     </body>
 
     </html>
