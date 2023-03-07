@@ -1,0 +1,18 @@
+#Criar uma aplicação
+python manage.py startapp core
+
+#criar a class Pessoas dentro de models.py e colocar o nome do app em settings
+
+#Cria a migração
+python manage.py makemigrations
+#cria a tabela
+python manage.py migrate
+
+#Usar a api 
+python manage.py shell
+from core.models import Pessoas
+pessoas = Pessoas.objetcs.all()
+pessoas
+
+
+#estudar a documentação
