@@ -11,7 +11,7 @@ python manage.py migrate
 #Usar a api 
 python manage.py shell
 from core.models import Pessoas
-pessoas = Pessoas.objetcs.all()
+pessoas = Pessoas.objects.all()
 pessoas
 
 

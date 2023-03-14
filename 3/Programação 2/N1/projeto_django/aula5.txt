@@ -1,0 +1,2 @@
+#Inserindo nome, telefone e idade na tabela pessoas
+pessoas = Pessoas.objects.create(nome='Carlos', telefone = '992167172', idade = 29)
