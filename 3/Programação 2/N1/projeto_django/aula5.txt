@@ -1,0 +1,26 @@
+#Inserindo nome, telefone e idade na tabela pessoas
+pessoas = Pessoas.objects.create(nome='Carlos', telefone = '992167172', idade = 29)
+
+#alterar os valores
+pessoas.nome = 'NOVONOME'
+pessoas.save()
+
+#selecionar com get
+pessoas = Pessoas.objetcs.get(id = 1)
+
+#selecionar recebendo uma lista de objetos
+pessoas = Pessoas.objects.all()
+
+#selecionar com filtro
+pessoas = Pessoas.objects.filter(nome = 'Carlos')
+
+#deletar
+pessoas.delete()
+
+#dentro do views importar o Pessoas do .models
+
+#Criar uma nova def index
+
+#Executar o runserver
+
+#criar a pasta template dentro de core e criar o arquivo index
