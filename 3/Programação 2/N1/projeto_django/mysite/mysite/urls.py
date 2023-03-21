@@ -18,7 +18,7 @@ from django.urls import path
 from core.views import index, list_pessoas
 
 urlpatterns = [
-    path('', index),
+    path('', index, name='index'),
     path('list_pessoas/', list_pessoas, name='list_pessoas'),
     path('admin/', admin.site.urls),
 ]
