@@ -25,3 +25,11 @@ def index(request):
         'pessoas': pessoas
     }
     return render(request, template_name, context)
+
+def list_pessoas(request):
+    pessoas = Pessoas.objects.all()
+    template_name = 'list_pessoas.html'
+    context = {
+        'pessoas': pessoas
+    }
+    return render(request, template_name, context)
