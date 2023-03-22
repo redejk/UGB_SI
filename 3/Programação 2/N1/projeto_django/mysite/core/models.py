@@ -9,3 +9,8 @@ class Pessoas(models.Model):
 
     def __str__(self):
         return self.nome
+    
+    class Meta:
+        verbose_name = 'Pessoa'
+        verbose_name_plural= 'Pessoas'
+        ordering = ['nome']
