@@ -20,7 +20,7 @@ def particao(vet, inicio, fim):
 
 #a)Ordenado 5000
 vet = []
-for i in range(1,5001):
+for i in range(1,988):
     vet.append(i)
 inicio = time.time()
 quicksort(vet)
@@ -29,9 +29,9 @@ print(vet)
 print(fim - inicio)
 print(len(vet))
 
-# #a)Ordenado 10000
+# # #a)Ordenado 10000
 vet = []
-for i in range(1, 10001):
+for i in range(1, 988):
   vet.append(i)
 inicio = time.time()
 quicksort(vet)
@@ -39,9 +39,9 @@ fim = time.time()
 print(vet)
 print(fim - inicio)
 
-# #b)Ordem inversa 5000
+# # #b)Ordem inversa 5000
 vet = []
-for i in range(5000, 0, -1):
+for i in range(987, 0, -1):
   vet.append(i)
 inicio = time.time()
 quicksort(vet)
@@ -49,7 +49,7 @@ fim = time.time()
 print(vet)
 print(fim - inicio)
 
-# #b)Ordem inversa 10000
+# # #b)Ordem inversa 10000
 vet = []
 for i in range(10000, 0, -1):
   vet.append(i)
@@ -59,7 +59,7 @@ fim = time.time()
 print(vet)
 print(fim - inicio)
 
-#c)Ordem aleatoria 1 5000
+# #c)Ordem aleatoria 1 5000
 vet = []
 vet = random.sample(range(1, 15000), 5000)
 inicio = time.time()
@@ -68,7 +68,7 @@ fim = time.time()
 print(vet)
 print(fim - inicio)
 
-#c)Ordem aleatoria 1 10000
+# #c)Ordem aleatoria 1 10000
 vet = []
 vet = random.sample(range(1, 15000), 10000)
 inicio = time.time()
@@ -77,7 +77,7 @@ fim = time.time()
 print(vet)
 print(fim - inicio)
 
-#d)Ordem aleatoria 2 5000
+# #d)Ordem aleatoria 2 5000
 vet = []
 vet = random.sample(range(3000, 15000), 5000)
 inicio = time.time()
@@ -86,7 +86,7 @@ fim = time.time()
 print(vet)
 print(fim - inicio)
 
-#d)Ordem aleatoria 2 10000
+# #d)Ordem aleatoria 2 10000
 vet = []
 vet = random.sample(range(3000, 15000), 10000)
 inicio = time.time()
