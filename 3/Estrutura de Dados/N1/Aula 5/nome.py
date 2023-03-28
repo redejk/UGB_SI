@@ -2,9 +2,9 @@ from pilha import Pilha
 pilha = Pilha()
 nome = input('Digite seu nome: ')
 for i in nome:
-    pilha.empilha(i)
+    pilha.push(i)
 x = ""
 while (not pilha.pilhaVazia()):
-    x = x + pilha.desempilha()
+    x = x + pilha.pop()
 
 print(x)

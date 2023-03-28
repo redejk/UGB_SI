@@ -13,8 +13,11 @@ def particao(vet, inicio, fim):
             vet[i], vet[j] = vet[j], vet[i]
             i += 1
     vet[i], vet[fim] = vet[fim], vet[i]
+    print(i)
     return i
 
 x = [3,2,8,10,1,5,9,4]
 quicksort(x)
 print(x)
+
+
