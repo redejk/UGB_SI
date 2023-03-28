@@ -1,0 +1,47 @@
+#Criar um projeto
+>django-admin startproject mysite
+
+#Criar aplicação
+mysite>python manage.py startapp core
+settings.py INSTALED_APPS - inserir o nome do app
+
+#Criar a tabela
+models.py Criar a classe com os campos
+mysite>python manage.py makemigrations
+mysite>python manage.py migrate
+
+#Criar o super usuário
+mysite>python manage.py createsuperuser
+core\admin.py from .models import Pessoas
+admin.site.register(Pessoas)
+
+#Levantar o serviço
+mysite>python manage.py runserver
+8000 porta padrão do django, caso queira mudar a porta, informe a porta após o comando runserver
+
+#urls.py
+from core.views import list_pessoas
+path('list_pessoas/', list_pessoas, name='list_pessoas'),
+
+#views.py
+from .models import Pessoas
+def list_pessoas(request):
+    pessoas = Pessoas.objects.all()
+    template_name = 'list_pessoas.html'
+    context = {
+        'pessoas' : pessoas
+    }
+    return render(request, template_name, context)
+
+#template html
+core> criar pasta templates
+core\templates> criar o arquivo list_pessoas.html
+<html>
+    <head>
+    </head>
+    <body>
+        {% for pessoa in pessoas %}
+            <p>{{ pessoa.nome }} - {{ pessoa.idade }}</p>
+        {% endfor %}
+    </body>
+</html>
