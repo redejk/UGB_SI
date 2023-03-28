@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block conteudo %}
+<h1>Lista de Filmes</h1>
+{% for filme in Filmes %}
+<p>{{ filme.nome }} - {{ filme.genero }} - {{ filme.quantidade }} - {{ filme.preco }} </p>
+{% endfor %}
+{%endblock%}
