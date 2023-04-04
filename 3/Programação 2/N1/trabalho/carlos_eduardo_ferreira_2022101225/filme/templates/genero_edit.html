@@ -1,0 +1,9 @@
+{% extends 'genero_list.html' %}
+
+{% block conteudo %}
+<form action="{% url 'genero_edit' chave_primaria_genero %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Salvar</button>
+</form>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<form action="{% url 'genero_new' %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Salvar</button>
+</form>
+<hr>
+<a href="{% url 'filme_new' %}"><button>Novo Filme</button></a><a href="{% url 'genero_list' %}"><button>Voltar</button></a>
+{% endblock %}
