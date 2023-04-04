@@ -1,0 +1,14 @@
+<html>
+    <head>
+    </head>
+    <body>
+        {% block conteudo %}
+        <h1>Lista de discos</h1>
+        <a href="{% url 'new_disco' %}">Novo</a>
+        {% for disco in discos %}
+            <p>{{ disco.nome }} - {{ disco.quantidade }} - {{ disco.preco }} - <a href="{% url 'update_disco' disco.id %}">Editar</a>
+                 - <a href="{% url 'delete_disco' disco.id %}">Deletar</a></p>
+        {% endfor %}
+        {% endblock %}
+    </body>
+</html>

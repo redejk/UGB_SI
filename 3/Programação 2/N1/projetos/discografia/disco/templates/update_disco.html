@@ -1,0 +1,9 @@
+{% extends 'list_disco.html' %}
+
+{% block conteudo %}
+<form action="{% url 'update_disco' pk %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Salvar</button>
+</form>
+{% endblock %}

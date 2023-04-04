@@ -15,9 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from disco.views import list_discos
+from disco.views import list_disco, new_disco, delete_disco, update_disco
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('list_discos/', list_discos, name='list_discos'),
+    path('list_disco/', list_disco, name='list_disco'),
+    path('new_disco/', new_disco, name='new_disco'),
+    path('delete_disco/<int:pk>/', delete_disco, name='delete_disco'),
+    path('update_disco/<int:pk>/', update_disco, name='update_disco'),
 ]

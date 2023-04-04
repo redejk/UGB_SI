@@ -8,9 +8,13 @@
 </head>
 <body>
    <a href="{% url 'filme_list' %}">Lista de Filmes</a>
+   <hr>
    <a href="{% url 'filme_new' %}">Novo Filme</a>
+   <hr>
    <a href="{% url 'filme_delete' %}">Deletar Filme</a>
+   <hr>
    <a href="{% url 'filme_edit' %}">Editar Filme</a>
+   <hr>
    <a href="{% url 'base' %}">Voltar</a>
    {%block conteudo%}
    {%endblock%}

@@ -1,0 +1,10 @@
+{% extends 'list_disco.html' %}
+
+{% block conteudo %}
+<form action="{% url 'new_disco' %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Salvar</button>
+</form>
+<a href="{% url 'list_disco' %}">Voltar</a>
+{% endblock %}
