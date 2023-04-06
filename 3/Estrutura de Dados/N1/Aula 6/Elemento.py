@@ -14,3 +14,6 @@ class Elemento:
     
     def setNome(self, n):
         self.__nome = n
+
+    def getValores(self):
+        return self.__chave, self.__nome
