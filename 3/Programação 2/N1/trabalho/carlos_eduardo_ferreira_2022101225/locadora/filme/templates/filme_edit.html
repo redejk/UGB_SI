@@ -1,9 +1,0 @@
-{% extends 'filme_list.html' %}
-
-{% block conteudo %}
-<form action="{% url 'filme_edit' chave_primaria_filme %}" method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Salvar</button>
-</form>
-{% endblock %}
